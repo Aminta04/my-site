@@ -1,0 +1,244 @@
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.logo_text{
+	color: #614ED2;
+	font-family: Nico Moji;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.logo{
+	display: flex;
+}
+.nav_list{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	gap: 63px;
+}
+.nav_link{
+	color: #4B36CC;
+	font-family: Nico Moji;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+}
+.nav_link:hover{
+	color: #E16262;
+}
+.header_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	padding:34px 0;
+}
+.first{
+	padding:60px 0;
+	background: #9E6A6A;
+}
+.first_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;	
+}
+.first_title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.first_sub-title{
+	color: #E4E4E4;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.first_btn{
+	border-radius: 6px;
+	background: var(--orange, linear-gradient 87deg, #E2A300 4.47%, #E29500 95.53%);
+	box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+	color: #100F0F;
+	font-family: Nico Moji;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding:12px 22px;
+}
+.first_info{
+	width: 453px;
+}
+.first_img{
+	width: 500px;
+}
+.container_about{
+	padding:70px 0 40.53px 0;
+}
+.about{
+	background: #F88E8E;
+}
+.about__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align:center;
+	margin-bottom:97.47px;
+}
+.about__content{
+	display:flex; 
+	justify-content:space-between;
+	align-items:center;
+}
+.skills{
+	width:356px;
+}
+.skills__titlle{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom:72px;
+}
+.skills__list{
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+.skills__name{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.skills__full{
+	width:100%;
+	height: 10px;
+	background: #8B7DDE;
+}
+.skills__done1{
+	width:80%;
+	height: 10px;
+	background: #B15F5F;
+}
+.skills__done2{
+	width:90%;
+	height: 10px;
+	background: #B15F5F;
+}
+.skills__done3{
+	width:95%;
+	height: 10px;
+	background: #B15F5F;
+}
+.video{
+	background: #9E6A6A;
+	padding:70px 0px 134px 0px;
+}
+.video__title{
+	color: #F5F2F2;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom:70px;
+	text-align:center;
+}
+.video__video{
+	width:100%;
+	height: 511px;
+	border-radius: 29px;
+	border:45px solid  #414141;
+	box-sizing:border-box;
+}
+.gallary{
+	background: #F38F90;
+	padding:70px 0px;
+}
+.gallary__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align:center;
+}
+.gallary__list{
+	display:flex;
+	list-style:none;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.gallary__item{
+	width:33%;
+	margin:0px 0px 39px 0px;
+	display: block;
+}
+.gallary__img{
+	width:100%;
+
+}
+.container_footer{
+	padding:50px 201px 52px 201px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.footer__list{
+	display:flex;
+	list-style:none;
+}
+.footer__title{
+	color: #5F5CD5;
+	font-family: Nico Moji;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 340.458px;
+}
+.footer__text{
+	color: #5F5CD5;
+	font-family: Nico Moji;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 164.063%; /* 26.25px */
+	width: 297.225px;
+}
+.footer__item:not(:last-child){
+	margin-right: 40px;
+}
+.up__img{
+	width: 50px;
+}
+.up{
+	position:fixed;
+	bottom: 30px;
+	right: 15px;
+}
